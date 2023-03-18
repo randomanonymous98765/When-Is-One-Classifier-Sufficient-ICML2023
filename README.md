@@ -8,7 +8,11 @@ $$
 \widehat{W}_\rho^{(j)} = \frac{1}{N}\sum_{n=1}^N \mathbb{1}(h_n(x_j)\neq y_j)
 $$
 
-and calculate $P(W_\rho \in [t,1/2))$ and $P(W_\rho \in [1/2, 1-t])$ from the empirical CDF of $\widehat{W}_\rho^{(1)},\dots,\widehat{W}_\rho^{(m)}$.
+and calculate $P(W_\rho \in [t,1/2))$ and $P(W_\rho \in [1/2, 1-t])$ from the empirical CDF of 
+
+$$
+\widehat{W}_\rho^{(1)},\dots,\widehat{W}_\rho^{(m)}.
+$$
 
 ![](figs/competence_plots_v4.png)
 
