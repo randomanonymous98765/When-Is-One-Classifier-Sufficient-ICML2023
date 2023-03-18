@@ -2,9 +2,9 @@
 
 ## Competence plots
 
-Below we show what we call "competence plots" for a variety of experimental settings, verifying that Assumption 1 is satisfied. To do this, we estimate both $P(W_\rho \in [t,1/2))$ and $P(W_\rho \in [1/2, 1-t])$ on test data. To do this, given a test set of examples $\{(\boldsymbol{x}_j,y_j)\}_{j=1}^m$ and classifiers $h_1,\dots,h_N$ drawn from $\rho$, we construct the estimator
+Below we show what we call "competence plots" for a variety of experimental settings, verifying that Assumption 1 is satisfied. To do this, we estimate both $P(W_\rho \in [t,1/2))$ and $P(W_\rho \in [1/2, 1-t])$ on test data. To do this, given a test set of examples $\{(x_j,y_j)\}_{j=1}^m$ and classifiers $h_1,\dots,h_N$ drawn from $\rho$, we construct the estimator
 $$
-\widehat{W}_\rho^{(j)} = \frac{1}{N}\sum_{n=1}^N \mathbb{1}(h_n(\boldsymbol{x}_j)\neq y_j)
+\widehat{W}_\rho^{(j)} = \frac{1}{N}\sum_{n=1}^N \mathbb{1}(h_n(x_j)\neq y_j)
 $$
 and calculate $P(W_\rho \in [t,1/2))$ and $P(W_\rho \in [1/2, 1-t])$ from the empirical CDF of $\{\widehat{W}_\rho^{(j)}\}_{j=1}^m$.
 
@@ -31,7 +31,7 @@ We make a few interesting observations regarding these results.
 
 ## Fine-tuned BERT models on GLUE tasks
 
-
+n
 
 ## References
 
