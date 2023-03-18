@@ -1,2 +1,2 @@
-# When-Is-One-Classifier-Sufficient-ICML2023
+# When is One Classifier Sufficient?
 Supplementary results for "When is One Classifier Sufficient?" -- ICML 2023 submission
